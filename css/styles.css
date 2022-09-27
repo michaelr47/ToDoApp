@@ -1,0 +1,28 @@
+* { box-sizing: border-box; }
+
+h1 { text-align: center; }
+
+section {
+    display: flex;
+    justify-content: center; 
+}
+.container {
+    height: 100px;
+    width: 100%;
+    background: rgb(97, 173, 248);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.list-container {
+    margin: 10px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    color: lightcoral;
+}
+input[type='text'] {
+width: 100%;
+}
